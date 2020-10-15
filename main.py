@@ -1,7 +1,7 @@
 import telebot
 from telebot import *
 
-bot = telebot.TeleBot('1378253402:AAETP7v9HwTvnzbwP_bIoiTkGoJPksQfsaM')
+bot = telebot.TeleBot()
 
 keyboard1 = telebot.types.ReplyKeyboardMarkup()
 keyboard1.row('Все про секс', 'Чи це насильство?', 'Дискримінація - що це?')
